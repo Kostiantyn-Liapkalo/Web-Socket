@@ -118,6 +118,7 @@ def run_http_server():
 
 
 if __name__ == '__main__':
+    
     logging.basicConfig(level=logging.DEBUG, format="%(threadName)s %(message)s")
 
     STORAGE_DIR = pathlib.Path().joinpath('storage')
